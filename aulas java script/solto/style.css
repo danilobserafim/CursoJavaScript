@@ -1,0 +1,40 @@
+h1{color: black;
+    box-shadow: 2px 2px 5px black;
+    width: 50%;
+    border-radius: 10px;
+    background-image: url(inicioSobre.png);
+}
+body{
+    padding:20px;
+    background-color: #bdb468;
+}
+article{
+    
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    margin:20px; 
+    box-shadow: 4px 4px 20px #000000;
+    width:50%;
+    
+}
+.section{
+    margin-bottom: 10px;	
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+}
+#menu{
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px black;
+    padding: 5px;
+    color: red;
+}
+aside{
+    box-shadow: 3px 3px 15px whitesmoke;
+    padding: 10px;
+    float: left; 
+    color: azure;
+    border-radius: 10px;
+    background-color: #00ffdd;
+}

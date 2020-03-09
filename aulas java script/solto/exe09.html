@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Nacionalidade</title>
+</head>
+<body>
+    <h1>Verificar se é brasileiro</h1>
+    Nacionalidade: <input type="text" name="txtNas" id="txtNas">
+    <input type="button" value="Veliricar" id="Ver" onclick="verificar()">
+    <div id="nas">
+
+    </div>
+    <script>
+        function verificar(){
+            var txtnas = document.querySelector('input#txtNas')
+            var ss = String(txtnas.value).toUpperCase()
+            var nas = document.querySelector('div#nas')
+            if(ss == 'BRASILEIRO'){
+                nas.innerHTML = 'Brasileiro'
+            }else{
+                nas.innerHTML = 'Estrangeiro'
+            }                 
+        }
+
+    </script>
+</body>
+</html>
